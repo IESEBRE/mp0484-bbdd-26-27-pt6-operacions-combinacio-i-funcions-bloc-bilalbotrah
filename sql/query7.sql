@@ -1,1 +1,7 @@
-SELECT * FROM dual;
+SELECT employee_id as empleat
+FROM Job_history
+WHERE MONTHS_BETWEEN(END_DATE,START_DATE)>12
+UNION
+SELECT employee_id as empleat
+FROM employees
+WHERE MONTHS_BETWEEN(SYSDATE,HIRE_DATE)>12;
