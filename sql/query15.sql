@@ -1,1 +1,1 @@
-SELECT first_name, last_name, ROUND(salary, -2) FROM employees ORDER BY 3 DESC, last_name;
+SELECT UPPER(first_name || ' ' || last_name), LENGTH(first_name || ' ' || last_name) FROM employees;
