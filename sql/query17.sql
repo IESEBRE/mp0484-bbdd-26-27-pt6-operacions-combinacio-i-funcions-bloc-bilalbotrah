@@ -1,1 +1,2 @@
-SELECT UPPER(first_name || ' ' || last_name), LENGTH(first_name || ' ' || last_name) FROM employees;
+SELECT MONTHS_BETWEEN(LAST_DAY(SYSDATE), SYSDATE)
+FROM dual;
