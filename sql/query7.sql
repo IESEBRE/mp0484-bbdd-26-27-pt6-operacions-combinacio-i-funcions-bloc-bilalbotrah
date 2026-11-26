@@ -1,1 +1,1 @@
-SELECT DISTINCT employee_id FROM job_history WHERE MONTHS_BETWEEN(end_date, start_date) > 12;
+SELECT employee_id as empleat FROM Job_history WHERE MONTHS_BETWEEN(END_DATE,START_DATE)>12 UNION SELECT employee_id as empleat FROM employees WHERE MONTHS_BETWEEN(SYSDATE,HIRE_DATE)>12;
