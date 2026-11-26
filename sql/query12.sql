@@ -1,6 +1,1 @@
-SELECT country_id
-FROM countries
-UNION
-SELECT country_id
-FROM locations
-ORDER BY 1;
+SELECT first_name, 'Empleat' FROM employees UNION ALL SELECT department_name, 'Departament' FROM departments ORDER BY 2, 1;
