@@ -1,1 +1,1 @@
-SELECT MAX(salary) FROM employees UNION ALL SELECT MIN(salary) FROM employees UNION ALL SELECT AVG(salary) FROM employees UNION ALL SELECT SUM(salary) FROM employees;
+SELECT max(salary) as "salary" FROM Employees UNION ALL SELECT min(salary) as "salary" FROM Employees UNION ALL SELECT avg(salary) as "salary" FROM Employees UNION ALL SELECT sum(salary) as "salary" FROM Employees;
