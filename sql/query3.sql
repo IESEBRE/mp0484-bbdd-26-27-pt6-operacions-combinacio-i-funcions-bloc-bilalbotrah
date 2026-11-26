@@ -1,4 +1,4 @@
-SELECT department_id AS departament, manager_id AS cap
+SELECT department_id AS departament, manager_id as cap
 FROM Departments
 INTERSECT
 SELECT department_id, manager_id
